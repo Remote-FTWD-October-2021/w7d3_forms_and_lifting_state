@@ -1,0 +1,9 @@
+.Product {
+  margin: 20px;
+  border: solid 5px black;
+  border-radius: 5px;
+  width: 200px;
+  min-height: 130px;
+  -webkit-box-shadow: 5px 5px 20px -3px #000000;
+  box-shadow: 5px 5px 20px -3px #000000;
+}
