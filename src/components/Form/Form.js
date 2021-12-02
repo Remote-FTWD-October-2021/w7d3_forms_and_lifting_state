@@ -17,6 +17,9 @@ const Form = (props) => {
       currency: inputCurrency,
       state: inputState,
     });
+
+    userCopy.filteredProducts = [...userCopy.products]
+
     props.setUserFromApp(userCopy);
   };
 
